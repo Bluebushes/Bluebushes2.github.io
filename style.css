@@ -1,0 +1,126 @@
+    
+    a:link{
+        color:dodgerblue;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    
+    a:visited{
+        color:tomato;
+        background-color:transparent;
+        text-decoration:none;
+    }
+    
+    a:hover{
+        color:yellow;
+        background-color:transparent;
+        text-decoration:underline;
+    }
+    
+    a:active{
+        color:lightgreen;
+        background-color:black;
+        text-decoration:line-through;
+    }
+    
+    .heading{
+        width:1525px;
+        height:100px;
+        background-color: white;
+        position: relative;
+        right: 10px;
+    }
+    
+    body{
+        background: linear-gradient(orangered, dodgerblue);
+        height: 750px;
+        width:100px;
+    }
+    
+    .thimblebackground{
+        background: linear-gradient(dodgerblue, orangered);
+        border-radius: 10px;
+        height: 500px;
+        width: 250px;
+        position: relative;
+        right: -240px;
+        top:0px;
+    }
+    
+    .border{
+        border-style: solid;
+        border-radius:10px;
+        border-width: 2px;
+        border-color: white;
+        height: 400px;
+        width: 150px;
+        position: relative;
+        right: -46px;
+        top: 50px;
+    }
+    
+    .text{
+        color: yellow;
+        text-shadow: -2px 0px 10px red, -2px 0px 10px red, -1px 0px 10px red;
+        position: relative;
+        right: -47.9px;
+        top:-290px;
+    }
+    
+    .tunakimage{
+        position: relative;
+        top: -300px;
+        right: -69px;
+    }
+    
+    .welcometext{
+    	border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        width:1550px;
+    	position: relative;
+        right: 15px;
+    }
+    
+    .tunakvideo{
+    	position: relative;
+        height: 125px;
+        width: 100px;
+        right: 35px;
+        top: -150px;
+    }
+    
+    .demodate{
+        position: absolute;
+        right: 500px;
+    }
+    
+    .description1{
+        border-style: solid;
+        border-color:darkgrey;
+        width: 750px;
+        position: relative;
+        right: -600px;
+        top: -520px;
+        padding: 5px;
+        background: darkgrey;
+        box-shadow: 10px 10px black;
+    }
+    
+    .description2{
+        border-style: solid;
+        border-color: darkgrey;
+        height: 100px;
+        width: 750px;
+        position: relative;
+        right: -600px;
+        top: -500px;
+        padding: 5px;
+        background: darkgrey;
+        box-shadow: 10px 10px black;
+    }
+
+    #text1_description2{
+        font-family:Verdana;
+    }
+    
