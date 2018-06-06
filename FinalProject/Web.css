@@ -73,10 +73,30 @@ li a.active{
     top:139px;
 }
 
-.textwrapper{
-    font-family:Helvetica;
+.sidebarwrapper{
+    background:linear-gradient(to bottom right, lightgrey, grey);
+    border:solid 3px white;
+    width:240px;
+    height:500px;
     position:absolute;
-    top:150px;
-    width:500px;
-    height:100px;
+    top:149px;
+    left:-10px;
+    font-family:"Arial";
+}
+
+.textwrapper{
+    font-family:"Trebuchet MS";
+    background-color:white;
+    position:absolute;
+    top:200px;
+    left:250px;
+    width:1250px;
+    height:1000px;
+    box-shadow: 0px 0px 20px darkgrey;
+}
+
+.textwrapper h1{/*this is a subpart of .textwrapper div, applied to any <h1> tag under .textwrapper div*/
+    display:flex;
+    justify-content:center;
+    padding:50px;
 }
