@@ -1,0 +1,15 @@
+li{
+    list-style:none;
+    display:block;
+    border-radius:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    height:100px;
+    align-text:center;
+    background:linear-gradient(lightgrey,darkgrey);
+}
+
+li:active{
+    background:linear-gradient(darkgrey,lightgrey);
+}
