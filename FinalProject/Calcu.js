@@ -1,7 +1,7 @@
 var x = 0;
 var op = '+';
 var y = 0;
-var opNum1 = 0; //this will be the actual number processed by computer
+var opNum1 = ''; //this will be the actual number processed by computer
 var num1 = '';
 
 var add = false;
