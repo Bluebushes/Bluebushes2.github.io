@@ -39,6 +39,10 @@
     background:linear-gradient(to bottom right, lightgrey, white);
 }
 
+.numGbuttonG:hover{
+    cursor:pointer;
+}
+
 .numGbuttonC{
     background:linear-gradient(to bottom right, white, lightgrey);
     width:100px;
@@ -54,6 +58,17 @@
     background:linear-gradient(to bottom right, lightgrey, white);
 }
 
+.numGbuttonC:hover{
+    cursor:pointer;
+}
+
+.numGamount{
+    position:absolute;
+    top:260px;
+    left:34%;
+    border:solid 5px darkgrey;
+}
+
 .textwrapper{
     font-family:"Trebuchet MS";
     background-color:white;
@@ -61,7 +76,7 @@
     top:200px;
     left:250px;
     width:1250px;
-    height:2000px;
+    height:3000px;
     box-shadow: 0px 0px 20px darkgrey;
 }
 

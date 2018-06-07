@@ -77,18 +77,21 @@ li a.active{
     background:radial-gradient(circle, white, lightgrey);
     border:solid 3px white;
     width:240px;
-    height:500px;
-    position:absolute;
-    top:149px;
-    left:-10px;
+    height:5000px;
+    position:fixed;
+    padding-top:200px;
+    top:0px;
+    left:5px;
     font-family:"Verdana";
     font-size:20px;
     list-style:none;
     text-align:center;
+    z-index:-1;
 }
 
 .sidebarwrapper a{
     display:flex;
+    padding-left:10px;
     justify-content:flex-start;
     text-decoration:none;
     color:black;
@@ -96,7 +99,8 @@ li a.active{
 
 .sidebarwrapper a:hover{
     margin:0 0 0 20px;
-    background-color:lightgrey;
+    background:linear-gradient(to right, white,lightgrey);
+    border-radius:10px;
 }
 
 
