@@ -1,8 +1,21 @@
+.calcDisplaywrapper{
+    background-color:white;
+    border:solid 10px lightgrey;
+    width:680px;
+    height:80px;
+    position:absolute;
+    top:400px;
+    left:520px;
+
+}
+
 .calcwrapper{
     background-color:lightgrey;
     width:700px;
     height:400px;
-    margin:0 auto;/*this centers the WHOLE div element, remove (width) and (height)*/
+    position:absolute;
+    top:500px;
+    left:520px;
     list-style:none;
     display:flex;
     flex-direction:column;
@@ -25,6 +38,78 @@
 }
 
 .calcwrapper li:hover{
-    background:linear-gradient(lightgrey,white);
     box-shadow: 2px 2px 10px black;
+}
+
+.calcwrapper li:active{
+    background:linear-gradient(lightgrey,white);
+}
+
+.calcEvalwrapper{
+    background-color:lightgrey;
+    width:700px;
+    height:100px;
+    position:absolute;
+    top:900px;
+    left:520px;
+}
+
+.calcEvalwrapper li{
+    display:block;
+    position:relative;
+    right:-120px;
+    margin:10px 80px;
+    padding:15px;
+    border:solid 5px darkgrey;
+    border-radius:10px;
+    background-color:white;
+    color:black;
+    font-family:"Arial";
+    text-align:center;
+}
+
+.calcEvalwrapper li:hover{
+    box-shadow:2px 2px 10px black;
+}
+
+.calcEvalwrapper li:active{
+    background:linear-gradient(lightgrey,white);
+}
+
+.textwrapper{
+    font-family:"Trebuchet MS";
+    background-color:white;
+    position:absolute;
+    top:200px;
+    left:250px;
+    width:1250px;
+    height:1000px;
+    box-shadow: 0px 0px 20px darkgrey;
+}
+
+.textwrapper h1{/*this is a subpart of .textwrapper div, applied to any <h1> tag under .textwrapper div*/
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.textwrapper h2{
+    display:flex;
+    justify-content:center;
+    padding:0px;
+    color:lightgrey;
+}
+
+.textwrapper b{
+    display:flex;
+    margin:10px;
+    position:absolute;
+    top:900px;
+}
+
+.textwrapper p{
+    display:flex;
+    margin:10px;
+    position:absolute;
+    top:920px;
 }
