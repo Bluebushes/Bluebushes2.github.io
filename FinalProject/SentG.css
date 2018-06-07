@@ -1,0 +1,38 @@
+.textwrapper{
+    font-family:"Trebuchet MS";
+    background-color:white;
+    position:absolute;
+    top:200px;
+    left:250px;
+    width:1250px;
+    height:1000px;
+    box-shadow: 0px 0px 20px darkgrey;
+}
+
+
+.textwrapper h1{                  /*<---this is a subpart of .textwrapper div, applied to any <h1> tag under .textwrapper div*/
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.textwrapper h2{
+    display:flex;
+    justify-content:center;
+    padding:0px;
+    color:lightgrey;
+}
+
+.textwrapper b{
+    display:flex;
+    margin:10px;
+    position:absolute;
+    top:600px;
+}
+
+.textwrapper p{
+    display:flex;
+    margin:10px;
+    position:absolute;
+    top:620px;
+}
