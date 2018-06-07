@@ -98,5 +98,26 @@ li a.active{
 .textwrapper h1{/*this is a subpart of .textwrapper div, applied to any <h1> tag under .textwrapper div*/
     display:flex;
     justify-content:center;
-    padding:50px;
+    padding:20px;
+}
+
+.textwrapper h2{
+    display:flex;
+    justify-content:center;
+    padding:0px;
+    color:lightgrey;
+}
+
+.textwrapper b{
+    display:flex;
+    margin:10px;
+    position:absolute;
+    top:600px;
+}
+
+.textwrapper p{
+    display:flex;
+    margin:10px;
+    position:absolute;
+    top:620px;
 }
