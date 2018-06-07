@@ -74,14 +74,29 @@ li a.active{
 }
 
 .sidebarwrapper{
-    background:linear-gradient(to bottom right, lightgrey, grey);
+    background:radial-gradient(circle, white, lightgrey);
     border:solid 3px white;
     width:240px;
     height:500px;
     position:absolute;
     top:149px;
     left:-10px;
-    font-family:"Arial";
+    font-family:"Verdana";
+    font-size:20px;
+    list-style:none;
+    text-align:center;
+}
+
+.sidebarwrapper a{
+    display:flex;
+    justify-content:flex-start;
+    text-decoration:none;
+    color:black;
+}
+
+.sidebarwrapper a:hover{
+    margin:0 0 0 20px;
+    background-color:lightgrey;
 }
 
 

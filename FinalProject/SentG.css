@@ -1,3 +1,59 @@
+.sentGwrapper{
+    background-color:lightgrey;
+    width:800px;
+    height:500px;
+    border:solid 50px tomato;
+    position:absolute;
+    top:400px;
+    left:425px;
+    z-index:1; /*this brings the object forward*/
+}
+
+.sentGdisplay{
+    background-color:white;
+    width:600px;
+    height:150px;
+    position:absolute;
+    top:50px;
+    left:100px;
+}
+
+.sentGdisplay h1{
+    font-family:"arial";
+    top:50px;
+    text-align:center;
+}
+
+.sentGbuttonG{
+    background:linear-gradient(to bottom right, white, lightgrey);
+    width:100px;
+    height:100px;
+    border:solid 5px darkgrey;
+    border-radius:100px;
+    position:absolute;
+    top:350px;
+    left:550px;
+}
+
+.sentGbuttonG:active{
+    background:linear-gradient(to bottom right, lightgrey, white);
+}
+
+.sentGbuttonC{
+    background:linear-gradient(to bottom right, white, lightgrey);
+    width:100px;
+    height:100px;
+    border:solid 5px darkgrey;
+    border-radius:100px;
+    position:absolute;
+    top:350px;
+    left:150px;
+}
+
+.sentGbuttonC:active{
+    background:linear-gradient(to bottom right, lightgrey, white);
+}
+
 .textwrapper{
     font-family:"Trebuchet MS";
     background-color:white;
@@ -5,7 +61,7 @@
     top:200px;
     left:250px;
     width:1250px;
-    height:1000px;
+    height:2000px;
     box-shadow: 0px 0px 20px darkgrey;
 }
 
@@ -23,16 +79,9 @@
     color:lightgrey;
 }
 
-.textwrapper b{
-    display:flex;
-    margin:10px;
+.textwrapperText{
     position:absolute;
-    top:600px;
-}
-
-.textwrapper p{
-    display:flex;
-    margin:10px;
-    position:absolute;
-    top:620px;
+    top:850px;
+    margin: 0 15px 0 15px;
+    font-size:20px;
 }
