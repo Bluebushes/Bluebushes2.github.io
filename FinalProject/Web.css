@@ -16,10 +16,11 @@ body{
     background-color:lightgreen;
     border:3px solid lightgreen;
     width:750px;
-    height:50px;
+    height:60px;
     position:absolute;
     top:10px;
     right:775px;
+    text-align:center;
     box-shadow:2px 2px 10px darkgreen;
 }
 
