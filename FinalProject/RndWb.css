@@ -1,3 +1,44 @@
+.randomWBwrapper{
+    background:linear-gradient(orangered,pink);
+    width:1000px;
+    height:500px;
+    position:absolute;
+    top:400px;
+    left:380px;
+    font-family:"Comic Sans MS";
+    font-size:20px;
+    z-index:1;
+}
+
+.randomWBbutton{
+    display:block;
+    width:300px;
+    height:50px;
+    background:linear-gradient(lightpink,hotpink);
+    border:solid 3px white;
+    position:absolute;
+    border-radius:200px;
+    top:50%;
+    left:34%;
+    text-align:center;
+    padding-bottom:15px;
+}
+
+.randomWBbutton:hover{
+    width:298px;
+    height:48px;
+    position:absolute;
+    top:49.8%;
+    left:33.9%;
+    border:solid 5px yellow;
+    padding-bottom:17px;
+    cursor:pointer;
+}
+
+.randomWBbutton:active{
+    background:linear-gradient(hotpink,lightpink);
+}
+
 .textwrapper{
     font-family:"Trebuchet MS";
     background-color:white;
@@ -13,7 +54,7 @@
 .textwrapper h1{                  /*<---this is a subpart of .textwrapper div, applied to any <h1> tag under .textwrapper div*/
     display:flex;
     justify-content:center;
-    padding:20px;
+    padding:0px;
 }
 
 .textwrapper h2{
