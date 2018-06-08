@@ -43,6 +43,7 @@ function printThree(){
         opNum1 = opNum1 + '3';
     }
    
+    num1 = num1 + '3';
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -53,7 +54,8 @@ function printFour(){
     else{
         opNum1 = opNum1 + '4';
     }
-   
+    
+    num1 = num1 + '4';
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -64,7 +66,8 @@ function printFive(){
     else{
         opNum1 = opNum1 + '5';
     }
-   
+
+    num1 = num1 + '5';   
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -75,7 +78,7 @@ function printSix(){
     else{
         opNum1 = opNum1 + '6';
     }
-   
+    num1 = num1 + '6';
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -86,7 +89,8 @@ function printSeven(){
     else{
         opNum1 = opNum1 + '7';
     }
-   
+    
+    num1 = num1 + '7';   
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -98,6 +102,7 @@ function printEight(){
         opNum1 = opNum1 + '8';
     }
    
+    num1 = num1 + '8';
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -108,7 +113,8 @@ function printNine(){
     else{
         opNum1 = opNum1 + '9';
     }
-   
+    
+    num1 = num1 + '9';
     document.getElementById("calcResult").innerHTML = num1;
 }
 
@@ -121,10 +127,11 @@ function printZero(){
         opNum1 = opNum1 + '0';
     }
    
+    num1 = num1 + '0';
     document.getElementById("calcResult").innerHTML = num1;
 }
 
-function printPlus(){ //THE PRINT FUNCTIONS ARE JUST WHAT THE USER SEES, PRINTS THE OPERATOR SIGN
+function printPlus(){ //These print functions print the operator that the user sees, but also defines what operator it is using boolean and if should change to filling opNum2
     add = true; //this will indicate to print an ADD operator, since add = true
     minus = false;
     multiply = false;
@@ -191,19 +198,50 @@ function solveDisplay(){ //this function uses the actual opNum1 & opNum2 STRINGS
     if (add == true){ // THIS INDICATES TO USE ADD OPERATOR
         opNum1 = Number(opNum1); //converts str to int
         opNum2 = Number(opNum2);
+        
         document.getElementById("calcResult").innerHTML = opNum1 + opNum2; //computes converted opNums to final ans and PRINTS it on display
+        
+        //The code below is CONTINUE CONTROL, so that the user can continously calculate
+        opNum1 = opNum1 + opNum2; //changes the original opNum1 to the SUM result
+        opNum2 = 0; //resets the opNum2 value so that the user can input the new CONTINUOUS value of opNum2 to be added to the result opNum1
+        num1 = String(opNum1); //changes the display to result in STRING form so it can be displayed
+
     }
     
     if (minus == true){ // SIMILARILY, INDICATES TO USE CORRESPONDING OPERATOR
+        opNum1 = Number(opNum1);
+        opNum2 = Number(opNum2);
+        
         document.getElementById("calcResult").innerHTML = opNum1 - opNum2;
+        
+        opNum1 = opNum1 - opNum2; //changes original opNum1 to MINUS result, similar to the other operators except they correspond to their operation
+        opNum2 = 0;
+        num1 = String(opNum1);
+
     }
     
     if (multiply == true){
+        opNum1 = Number(opNum1);
+        opNum2 = Number(opNum2);
+        
         document.getElementById("calcResult").innerHTML = opNum1 * opNum2;
+        
+        opNum1 = opNum1 * opNum2;
+        opNum2 = 0;
+        num1 = String(opNum1);
+
     }
     
     if (divide == true){
+        opNum1 = Number(opNum1);
+        opNum2 = Number(opNum2);
+        
         document.getElementById("calcResult").innerHTML = opNum1 / opNum2;
+        
+        opNum1 = opNum1 / opNum2;
+        opNum2 = 0;
+        num1 = String(opNum1);
+
     }
 }
 
