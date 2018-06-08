@@ -14,9 +14,9 @@ if (cont < 1){
     var b = x;
     var c = y;
     
-    i = Math.floor(Math.random() * a);
-    x = Math.floor(Math.random() * b);
-    y = Math.floor(Math.random() * c);
+    a = Math.floor(Math.random() * 21);
+    b = Math.floor(Math.random() * 21);
+    c = Math.floor(Math.random() * 21);
 }
     document.getElementById("randSent").innerHTML = noun1[a] + " " + verb[b] + " " + noun2[c];
 
