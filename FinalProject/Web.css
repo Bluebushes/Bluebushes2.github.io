@@ -1,6 +1,7 @@
 body{
     background-color:lightblue;
     position:absolute;
+    overflow-x:hidden;
 }
 
 .wrapperheading{
