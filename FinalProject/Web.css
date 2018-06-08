@@ -12,6 +12,24 @@ body{
     left:-10px;
 }
 
+.wrapperheadingBar1{
+    background-color:black;
+    width:870px;
+    height:20px;
+    position:absolute;
+    top:85px;
+    left:650px;
+}
+
+.wrapperheadingBar2{
+    background-color:black;
+    width:870px;
+    height:20px;
+    position:absolute;
+    top:0px;
+    left:650px;
+}
+
 .wrapperheading p{
     font-family:Helvetica;
     font-size:20px;
@@ -49,6 +67,7 @@ body{
 
 ul{
     background-color:#2D3C9F;
+    width:100%;
     list-style-type:none;
     margin:0;
     padding:0;
