@@ -13,19 +13,17 @@
 .textwrapper h1{                  /*<---this is a subpart of .textwrapper div, applied to any <h1> tag under .textwrapper div*/
     display:flex;
     justify-content:center;
-    padding:0px;
 }
 
 .textwrapper h2{
     display:flex;
     justify-content:center;
-    padding:0px;
     color:lightgrey;
 }
 
 .textwrapperText{
     position:absolute;
-    top:850px;
-    margin: 0 15px 0 15px;
+    top:200px;
+    margin-left:20px;
     font-size:20px;
 }

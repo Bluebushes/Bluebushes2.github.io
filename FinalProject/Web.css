@@ -12,6 +12,17 @@ body{
     left:-10px;
 }
 
+.wrapperheading p{
+    font-family:Helvetica;
+    font-size:20px;
+    font-weight:lighter;
+    color:yellow;
+    font-style:italic;
+    position:absolute;
+    top:13%;
+    left:50%;
+}
+
 .topheading{
     background-color:lightgreen;
     border:3px solid lightgreen;
@@ -84,13 +95,18 @@ li a.active{
     top:0px;
     left:5px;
     font-family:"Verdana";
-    font-size:20px;
     list-style:none;
     text-align:center;
     z-index:-1;
 }
 
+.sidebarwrapper h3{
+    text-decoration:underline overline;
+    font-size:20px;
+}
+
 .sidebarwrapper a{
+    font-size:20px;
     display:flex;
     padding-left:10px;
     justify-content:flex-start;
