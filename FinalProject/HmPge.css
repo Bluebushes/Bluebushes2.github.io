@@ -27,3 +27,21 @@
     margin-left:20px;
     font-size:20px;
 }
+
+.footerbarwrapper{
+    background:linear-gradient(lightyellow, khaki);
+    width:2000px;
+    height:200px;
+    position:absolute;
+    bottom:-1300px;
+    left:-10px;
+    z-index:0;
+}
+
+.footerbarwrapper p{
+    font-family:"Trebuchet MS";
+    color:black;
+    display:flex;
+    justify-content:center;
+    margin-left:-250px;
+}

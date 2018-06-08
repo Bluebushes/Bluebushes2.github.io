@@ -46,7 +46,7 @@
     top:200px;
     left:250px;
     width:1250px;
-    height:2000px;
+    height:3200px;
     box-shadow: 0px 0px 20px darkgrey;
 }
 
@@ -69,4 +69,22 @@
     top:850px;
     margin: 0 15px 0 15px;
     font-size:20px;
+}
+
+.footerbarwrapper{
+    background:linear-gradient(lightyellow, khaki);
+    width:2000px;
+    height:200px;
+    position:absolute;
+    bottom:-3500px;
+    left:-10px;
+    z-index:0;
+}
+
+.footerbarwrapper p{
+    font-family:"Trebuchet MS";
+    color:black;
+    display:flex;
+    justify-content:center;
+    margin-left:-250px;
 }
