@@ -25,6 +25,7 @@
 }
 
 .numGbuttonG{
+    user-select:none;
     background:linear-gradient(to bottom right, white, lightgrey);
     width:100px;
     height:100px;
