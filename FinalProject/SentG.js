@@ -9,8 +9,16 @@ if (cont < 1){
     var i = Math.floor(Math.random() * 21);
     var x = Math.floor(Math.random() * 21);
     var y = Math.floor(Math.random() * 21);
+    
+    var a = i;
+    var b = x;
+    var c = y;
+    
+    i = Math.floor(Math.random() * a);
+    x = Math.floor(Math.random() * b);
+    y = Math.floor(Math.random() * c);
 }
-    document.getElementById("randSent").innerHTML = noun1[i] + " " + verb[x] + " " + noun2[y];
+    document.getElementById("randSent").innerHTML = noun1[a] + " " + verb[b] + " " + noun2[c];
 
 }
 
